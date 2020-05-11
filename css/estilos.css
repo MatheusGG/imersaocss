@@ -1,0 +1,50 @@
+body {
+    /*
+    background: #393c3d;
+    */
+    background-image: url('https://saga.art.br/wp-content/uploads/2019/02/saga-geek-background-00-mobile.png');
+    background-size: auto 100vh; 
+    height: 100vh;
+    /* 
+    auto  --> auto está em 100vw, ou largura de lado
+    100vh --> 100% view port, altura da tela em 100%*/
+    font-family: normal 18pt;
+    color: #edc891;
+  }
+  
+  .menu {
+    background-color: whitesmoke;
+    padding: 1px;
+    border-radius: 5px;
+  }
+  
+  .menu ul {
+    /*justify-content precisa de display: flex antes;*/
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* todas as li de menu*/
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    /* decoração do texto, o link vem com text-decoration: underline;
+    */
+    color: teal;
+    text-decoration: none;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
